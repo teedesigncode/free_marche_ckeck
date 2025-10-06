@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
       D: "全体的に改善が必要です。導線・照明・情報提示のいずれも不足しており、来場者に伝わりにくい構成になっています。"
     };
 
-    const companyUrl = "https://example.com/consultation";
+    const companyUrl = "https://tee-design.jp/";
     const ctaButton = `<a class="cta" href="${companyUrl}" target="_blank">今すぐ無料で相談する</a>`;
 
     let html = `<div class="score-badge score-${grade}">${grade}評価（${total}点）</div>
